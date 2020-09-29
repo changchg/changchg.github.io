@@ -1,11 +1,76 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Chang's Site</title>
+   <meta charset="UTF-8">
+   <title>final project</title>
+   <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
 </head>
 <body>
-	<h1>Hello world! Changgggggg</h1>
+	<div class="bg-img container text-white">
+		<div>
+		   <h1>Monk's Cafe</h1>
+           <h2>"The Coffee Shop"</h2>
+        </div>
+	</div>
+    
+
+    <div>
+    	<div class="container box-padding">
+    		<h2>Reservations</h2>
+    	</div>
+    	
+    	<div class="flex-row">
+    		<div>
+    			<div>
+    				<H3>Make a Reservation</H3>
+    			</div>
+    		    
+    		    <form id="reservation-form">
+    		    	<div>
+    		    		<h5>Name</h5>
+    		            <input type="text" placeholder="Name">	
+    		    	</div>
+    		    	<div></div>
+    		    	<div>
+    		    		<h5>Day</h5>
+                        <input type="text" placeholder="Day">
+    		    	</div>
+    		    	<div style="padding-top: 40px">
+    		    		<button>Confirm Reservation</button>
+    		    	</div>  
+                </form>
+    		</div>
+
+    		<div>
+    		    <div>  
+    		        <h3>Existing Reservations</h3>
+    		    </div>
+    		    <table>
+                    <thead>
+                        <th>Name</th>
+                        <th>Day</th>
+                    </thead>
+                    <tbody> [ form data will publish here ] </tbody>
+                </table>
+    		</div>
+    	</div>
+    </div> 
+
+    <div>
+    	<div class="container box-padding">
+        	<h2>Come Dine with Us</h2>
+        </div>  
+    
+        <div class="flex-row">
+        	<img src="http://circuits-assets.generalassemb.ly/prod/asset/5474/jerry.jpg">
+        	<div class="box-padding">
+        		<h2> Customer Reviews </h2>
+                <p> “Big lettuce, big carrots, tomatoes like volleyballs.” — Jerry     Seinfeld, on The BIG Salad </p>
+        	</div>
+        </div> 
+    </div>
+
+   <script src="js/jquery-3.5.1.js"></script>
+   <script src="js/main.js"></script>
 </body>
 </html>
